@@ -1,0 +1,104 @@
+/* ================================================= */
+/* FIRST MOBILE */
+/* ================================================= */
+body{
+    width: calc(100vw-10px);
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25% 10px;
+}
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+main{
+    width: 95%;
+    max-width: 600px;
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+p{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+input{
+    width: 98%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(167, 167, 167);
+    font-size: 32px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+button{
+    width: 98%;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#output{
+    width: 95%;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 2px;
+}
+.normal{
+    background-color: dimgrey;
+    color: white;
+    border: 1px solid white;
+}
+.wrong{
+    background-color: rgb(255, 138, 138);
+    color: red;
+    border: 1px solid red;
+}
+
+
+
+/* ================================================= */
+/* MEDIA QUERIES */
+/* ================================================= */
+
+/* MAYOR O IGUAL DE 576PX (A PARTIR DE 575PX INCLUSIVE) - SMARTPHONES */
+@media only screen and (min-width:576px){
+
+}
+
+
+/* MAYOR O IGUAL DE 768PX (A PARTIR DE 768PX INCLUSIVE) - SMARTPHONES GRANDES, TABLETS */
+@media only screen and (min-width:768px){
+
+
+}
+
+
+
+/* MAYOR O IGUAL DE 992PX (A PARTIR DE 992PX INCLUSIVE) - PC PEQUEÑOS, LAPTOPS */
+@media only screen and (min-width:992px){
+
+
+
+}
+
+/* MAYOR O IGUAL DE 1200PX (A PARTIR DE 1200PX INCLUSIVE) - PC GRANDES, TELEVISIONES */
+@media only screen and (min-width:1200px){
+
+
+
+
+}
